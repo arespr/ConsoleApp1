@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -40,7 +41,6 @@ namespace ConsoleApp1
 
         private readonly static Tuple<ulong, ulong, string>[] _knownMethods = new Tuple<ulong, ulong, string>[8];
         private readonly static Tuple<ulong, ulong, string>[] _knownMethods2 = new Tuple<ulong, ulong, string>[17];
-
 
 
         private unsafe static ulong GetAsciiStringAsLong(string str)
